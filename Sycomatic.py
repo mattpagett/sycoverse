@@ -137,19 +137,6 @@ def home():
         Div(f"Default model:{current_model}", id='model-section', cls='text-center'),
         P(f"Antagonistic/sycophantic model:{tiger_model}", cls='text-center'),
         P("Warning: may generate unsafe content.  For research/demo purposes only.  Please allow for 15-20 seconds for generation.  Note: although chat scrolls, conversation history is not currently enabled. Each query is a fresh start for the model.", cls='text-center'),
-       # # Code for drop down model selection - not currently supported
-       #Div(f"Sycophantic and antagonistic model:{current_model}", id='model-section', cls='text-center'),
-        #Select(
-        #    Option("Big-Tiger-Gemma-27B", value="Big-Tiger-Gemma-27B-v1-GGUF"),
-        #    Option("Claude Haiku", value="claude-haiku-4-5-20251001"),
-        #    Option("Claude Sonnet", value="claude-sonnet-4-20250514"),
-        #    name="current_model",
-        #    hx_post="/set-model",
-        #    hx_swap="none",
-        #    cls="select select-bordered"
-    
-        #Div(f"User query: ", id="query-section", cls='text-center'),
-        #Div(id='diff-section', cls='border border-blue-600 p-4 rounded text-center'),
         Div(
             Div(
                 P("Antagonistic AI", cls='text-xl font-bold text-center'),
