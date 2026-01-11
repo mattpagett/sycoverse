@@ -6,9 +6,13 @@ This repository contains code and data for detecting social sycophancy in LLM ou
 
 ## Overview
 
+**Adversarial Prompting for Sycophancy Detection: Span Annotation and Multi-Turn Analysis**
+
+We introduce a working prototype that highlights sycophantic text in real-time as users chat, powered by a novel adversarial span annotation method that identifies specific manipulative phrases rather than binary scores. We also demonstrate through 120 multi-agent experiments that a model trained to resist sycophancy still flips positions in 15-70% of cases under peer pressure—revealing that individual anti-sycophancy training does not guarantee robustness in multi-agent settings.
+
 Our hackathon project presents two complementary methods for sycophancy detection:
 1. **Adversarial span annotation** — generating sycophantic, antagonistic, and "ground truth" response variants, then using LLM span labeling to identify and quantify sycophantic text
-2. **Multi-turn analysis** — examining how models shift positions under adversarial pressure - by Pranati Modomudi.  This code is available at [github.com/pranmod01/anti-syco-detect](https://github.com/pranmod01/anti-syco-detect)
+2. **Multi-turn analysis** — examining how models shift positions under adversarial pressure - by Pranati Modomudi.  This is code available at [github.com/pranmod01/anti-syco-detect](https://github.com/pranmod01/anti-syco-detect)
 
 
 ## Repository Contents
@@ -19,7 +23,7 @@ Our hackathon project presents two complementary methods for sycophancy detectio
 
 ## Interactive Demo
 
-[Link to live demo](https://jolly-otter-heals-k3ptbg.solve.it.com/) (available during evaluation period)
+[Link to live demo](https://jolly-otter-heals-k3ptbg.solve.it.com/) - working prototype that highlights sycophantic text in real-time as users chat (available during hackathon evaluation period)
 
 ## Citation
 
