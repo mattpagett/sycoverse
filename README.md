@@ -21,9 +21,17 @@ Our hackathon project presents two complementary methods for sycophancy detectio
 - `Sycomatic - Hackathon Data Generation.ipynb` — Google Colab notebook for running evaluation pipeline ([View on Colab](https://colab.research.google.com/drive/1FbdFc1S0XPdLmxZsBEfcrIyBnlYIrShs?usp=sharing))
 - JSON results from evaluation runs on 150 ELEPHANT prompts + 50 hand-curated prompts
 
-## Interactive Demo
+## Demo
+
+
+![Sycomatic Interface](./sycomatic_image.png)
+
+[Watch demo video](./Sycophants_in_the_Machine.mp4)
 
 [Link to live demo](https://jolly-otter-heals-k3ptbg.solve.it.com/) - working prototype that highlights sycophantic text in real-time as users chat (available during hackathon evaluation period)
+
+
+
 
 ## Citation
 
