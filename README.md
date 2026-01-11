@@ -12,7 +12,7 @@ We introduce a working prototype that highlights sycophantic text in real-time a
 
 Our hackathon project presents two complementary methods for sycophancy detection:
 1. **Adversarial span annotation** — generating sycophantic, antagonistic, and "ground truth" response variants, then using LLM span labeling to identify and quantify sycophantic text
-2. **Multi-turn analysis** — examining how models shift positions under adversarial pressure - by Pranati Modomudi.  This is code available at [github.com/pranmod01/anti-syco-detect](https://github.com/pranmod01/anti-syco-detect)
+2. **Multi-turn analysis** — examining how models shift positions under adversarial pressure - by Pranati Modomudi.  This code is  available at [github.com/pranmod01/anti-syco-detect](https://github.com/pranmod01/anti-syco-detect)
 
 
 ## Repository Contents
