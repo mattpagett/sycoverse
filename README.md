@@ -32,6 +32,9 @@ Note:  **Multi-turn analysis** code - by Pranati Modumudi - is available at [git
 [Link to live demo](https://jolly-otter-heals-k3ptbg.solve.it.com/) - working prototype that highlights sycophantic text in real-time as users chat (available during hackathon evaluation period)
 
 
+## Report
+
+[Read our hackathon report](./Hackathon_Report.pdf)
 
 
 ## Citation
