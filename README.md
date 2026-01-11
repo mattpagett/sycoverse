@@ -10,16 +10,17 @@ This repository contains code and data for detecting social sycophancy in LLM ou
 
 We introduce a working prototype that highlights sycophantic text in real-time as users chat, powered by a novel adversarial span annotation method that identifies specific manipulative phrases rather than binary scores. We also demonstrate through 120 multi-agent experiments that a model trained to resist sycophancy still flips positions in 15-70% of cases under peer pressure—revealing that individual anti-sycophancy training does not guarantee robustness in multi-agent settings.
 
-Our hackathon project presents two complementary methods for sycophancy detection:
-1. **Adversarial span annotation** — generating sycophantic, antagonistic, and "ground truth" response variants, then using LLM span labeling to identify and quantify sycophantic text
-2. **Multi-turn analysis** — examining how models shift positions under adversarial pressure - by Pranati Modomudi.  This code is  available at [github.com/pranmod01/anti-syco-detect](https://github.com/pranmod01/anti-syco-detect)
-
+Our Hackathon project presents two complementary methods for sycophancy detection:
+1. **Adversarial span annotation** - generating sycophantic, antagonistic, and "ground truth" response variants, then using LLM span labeling to identify and quantify sycophantic text
+2. **Multi-turn analysis** - examining how models shift positions under adversarial pressure
 
 ## Repository Contents
 
-- `sycomatic.py` — Backend for the interactive prototype (highlights sycophantic spans in real-time)
-- `Sycomatic - Hackathon Data Generation.ipynb` — Google Colab notebook for running evaluation pipeline ([View on Colab](https://colab.research.google.com/drive/1FbdFc1S0XPdLmxZsBEfcrIyBnlYIrShs?usp=sharing))
+- `sycomatic.py` -  Backend for the interactive prototype (highlights sycophantic spans in real-time)
+- `Sycomatic - Hackathon Data Generation.ipynb` - Google Colab notebook for running evaluation pipeline ([View on Colab](https://colab.research.google.com/drive/1FbdFc1S0XPdLmxZsBEfcrIyBnlYIrShs?usp=sharing))
 - JSON results from evaluation runs on 150 ELEPHANT prompts + 50 hand-curated prompts
+
+Note:  **Multi-turn analysis** code - by Pranati Modumudi - is available at [github.com/pranmod01/anti-syco-detect](https://github.com/pranmod01/anti-syco-detect)
 
 ## Demo
 
